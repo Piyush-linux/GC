@@ -1,0 +1,58 @@
+body {
+    /*height: 100vh;*/
+    background-color: #232840;
+    font-size: 13px;
+}
+
+/*Navbar*/
+.navbar,
+.navbar-end {
+    background-color: #232840;
+    height: auto;
+}
+
+.navbar-item:hover {}
+
+.navTxt {
+    background-color: #232840;
+    color: #F249A7;
+    font-family: Hermit;
+    /*font-family: Montserrat;*/
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1em;
+    text-shadow: 3px 3px 4px rgba(242, 73, 167, 0.25);
+}
+
+/*M-1*/
+.bix {
+    width: 100%;
+    height: auto;
+    background: #171A2B;
+    text-align: center;
+    color: #9AC6C9;
+    font-family: Hermit;
+font-style: normal;
+font-weight: 500;
+font-size: 1.2em;
+line-height: 19px;
+padding: 20px;
+}
+
+.but{
+	/*position: absolute;*/
+width: 254px;
+height: auto;
+padding: 1em;
+font-family: Hermit;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #9AC6C9;
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(242, 73, 167, 0.25);
+}
