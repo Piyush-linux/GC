@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 body {
     /*height: 100vh;*/
     background-color: #232840;
@@ -16,7 +17,7 @@ body {
 .navTxt {
     background-color: #232840;
     color: #F249A7;
-    font-family: Hermit;
+    font-family: IBM Plex Mono;
     /*font-family: Montserrat;*/
     font-style: normal;
     font-weight: bolder;
@@ -31,7 +32,7 @@ body {
     background: #171A2B;
     text-align: center;
     color: #9AC6C9;
-    font-family: Hermit;
+    font-family: IBM Plex Mono;
 font-style: normal;
 font-weight: 500;
 font-size: 1.2em;
