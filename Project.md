@@ -47,9 +47,15 @@ __About US__
 - Suggest Your Idea's
 - Contact's
 - RoadMap : Of How was this Project Done and what Utilities we used for this project
+- DOCUMENT : PDF of Docmentation 
 
 
 __Style__
 _Sheet_ :: Tooltip,Loading,Hover,Cursor,Neon,Font,ColorScheme,DarkMode,Icon,AutoScrooll,Parallax
 _Font_::IBM Plex Mono,Hermit,FiraCode,Montsterra,Heebo,orbitron
 _Pallete_::.-
+
+# Learn
+Wireframe -> Design
+Devlopment : Layout(margin,padding,column) -> Content
+Styling : Color -> Font -> Animation
