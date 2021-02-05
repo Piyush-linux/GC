@@ -5,6 +5,8 @@
 
 _Template_ :: https://onepagelove.com/the-state-of-css-2020 | https://stateofcss.com/
 _language_ :: HTML,CSS,JS,Jquery, [PHP] ,PY
+# Dir
+.html -> CSS -> JSS -> gallery -> Icon
 # SiteMap
 
 [Home] => https://stateofcss.com/
