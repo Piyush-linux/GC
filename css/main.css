@@ -46,6 +46,8 @@ body {
 .activ {
     background-color: #171A2B;
     font-weight: bolder;
+    text-shadow: 0 10px 8px #c4b59d,0 0px 1px #F249A7;
+     /*text-shadow: 1px 1px 8px #ff0000;*/
 }
 
 /*Nav_Animation*/
