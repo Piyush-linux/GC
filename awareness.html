@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css" integrity="sha512-byErQdWdTqREz6DLAA9pCnLbdoGGhXfU6gm1c8bkf7F51JVmUBlayGe2A31VpXWQP+eiJ3ilTAZHCR3vmMyybA==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" type="text/css" href="/home/piyu/Documents/CODE/web/css-lib/bulma.css"> -->
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- <script type="text/javascript" src="js/aware.js"></script> -->
+    <!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+</head>
+
+<body>
+	<div class="cursor"></div>
+    <!-- <div id="chartContainer"></div> -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <!-- LOGO -->
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <!-- <figure class="image"></figure> -->
+                    <span class="icon is-large">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);">
+                            <g fill="none">
+                                <path d="M8.121 9.879l2.083 2.083l.007-.006l1.452 1.452l.006.006l2.122 2.122a5 5 0 1 0 0-7.072l-.714.714l1.415 1.414l.713-.713a3 3 0 1 1 0 4.242l-2.072-2.072l-.007.006l-3.59-3.59a5 5 0 1 0 0 7.07l.713-.713l-1.414-1.414l-.714.713a3 3 0 1 1 0-4.242z" fill="#00AFB5" />
+                            </g>
+                            <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+                        </svg>
+                    </span>
+                </a>
+                <!-- Burger -->
+                <a role="button" class="navbar-burger mt-2" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true" class="has-background-primary"></span>
+                    <span aria-hidden="true" class="has-background-primary"></span>
+                    <span aria-hidden="true" class="has-background-primary"></span>
+                </a>
+            </div>
+            <!-- Menu -->
+            <div id="navbarBasicExample" class="navbar-menu">
+                <!-- Middle_Menu -->
+                <div class="navbar-end" style="">
+                    <!-- HOME -->
+                    <a href="index.html" class="navbar-item navTxt has-text-centered hvr-outline-in">
+                        H O M E
+                    </a>
+                    <!-- Awareness -->
+                    <a href="awarenwss.html" class="navbar-item activ navTxt mx-3 has-text-centered hvr-outline-in">
+                        A W A R E N E S S
+                    </a>
+                    <!-- DashBoard -->
+                    <a href="about.html" class="navbar-item navTxt mx-3 has-text-centered hvr-outline-in">
+                        A B O U T U S
+                    </a>
+                </div>
+                <!-- End-Menu -->
+                <div class="navbar-end" style="background-color: #232840;">
+                    <div class="navbar-item">
+                        <div class="buttons is-centered">
+                            <a class="button is-primary is-radiusless">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-dark is-radiusless">
+                                <b>Log in</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <section>
+            <div class="columns is-grouped-multiline">
+                <div class="column is-3 is-grouped-centered has-text-centered">
+                    <h1 class="title">Yearly Salary</h1>
+                </div>
+                <div class="column">
+                    <div class="level">
+                        <div class="level-left">
+                            <div class="level-item">
+                                <div class="level-item">Bar Graph</div>
+                            </div>
+                        </div>
+                        <div class="levle-right px-3">
+                            <div class="level-item">
+                            	<div class="buttons has-addons">
+                                	<div class="cssBut px-2 py-1">Export </div>
+                                	<div class="cssBut px-2 py-1">Share </div>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <section>
+        </section>
+    </footer>
+    <!-- Script -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
